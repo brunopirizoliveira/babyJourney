@@ -1,0 +1,14 @@
+<app-filter></app-filter>
+<div class="section mt-1">
+  
+  <div class="section-item" *ngFor="let image of images" >
+    
+    <app-image
+      [url]="image.url"
+      [alt]="image.description"
+    >
+    </app-image>
+
+  </div>
+
+</div>
